@@ -9,7 +9,7 @@ function App() {
     return (
         <Layout>
             <Routes>
-                <Route path="/" element={<AllMeetupsPage />} />
+                <Route path="/todos" element={<AllMeetupsPage />} />
                 <Route path="/new-meetup" element={<NewMeetupsPage />} />
                 <Route path="/favourites" element={<FavouritesPage />} />
             </Routes>

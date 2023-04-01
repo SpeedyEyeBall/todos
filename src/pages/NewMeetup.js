@@ -16,7 +16,7 @@ function NewMeetupsPage() {
                 },
             }
         ).then(() => {
-            navigate("/", { replace: true });
+            navigate("/todos", { replace: true });
         });
     }
 
